@@ -1,6 +1,5 @@
 $('.js-ui-menu-close-icon').click(function(){
 	var menuWidth = $('.js-ui-menu').width();
-	console.log("[.js-ui-menu] width ", menuWidth);
 	if (menuWidth < 100) {
 		$('.js-ui-menu').animate({'width': '145px'});
 		$('.js-ui-menu-close-icon').animate({'left': '155px'});
