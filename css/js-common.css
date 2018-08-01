@@ -10,16 +10,18 @@ body{
 	position: absolute;
     left: 0;
     top: 0;
-	width: 138px;
-	height: 100%;
-	background-color: #FFFFFF;
+    width: 145px;
+    height: auto;
+    min-height: 100%;
+    background-color: #FFFFFF;
+    padding: 0 5px;
 }
 .js-ui-menu-close-icon{
 	position: absolute;
     top: 50%;
     cursor: pointer;
-    left: 138px;
-    background-color: lightblue;
+    left: 155px;
+    background-color: cornflowerblue;
     width: 16px;
     font-size: 14px;
     height: 60px;
@@ -27,6 +29,7 @@ body{
     vertical-align: middle;
     text-align: center;
     border-radius: 0 3px 3px 0;
+    z-index: 999;
 }
 .js-ui-logo{
 	width: 138px;
@@ -40,13 +43,18 @@ body{
 	height: 50px;
 	line-height: 50px;
 	vertical-align: middle;
-	text-align: center;
+	text-align: left;
+}
+.js-ui-menu-content{
+	position: absolute;
+    top: 100px;
+    left: 5px;
 }
 .js-ui-container{
     position: relative;
     left: 0;
     top: 0;
-    margin-left: 138px;
+    margin-left: 155px;
 }
 .js-ui-header{
 	position: relative;
@@ -59,26 +67,49 @@ body{
 	font-size: 20px;
 	font-weight: bold;
 }
+.js-ui-nav{
+	margin-top: 10px;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+	padding: 0 0 0 20px;
+	color: #97a8be;
+	font-size: 14px;
+}
+.js-ui-nav .avtive{
+	color: #409EFF;
+}
+.js-ui-nav-item{
+	margin: 0 5px;
+}
 .js-ui-content{
 	position: relative;
     left: 0;
     top: 0;
     height: 100%;
-    padding: 0 15px;
+    padding: 0 0 0 20px;
 }
 /* panel */
 .js-ui-panel{
 	margin-top: 15px;
 	background-color: #fff;
-    padding: 15px;
+    padding: 10px 15px 15px 15px;
 	border-radius: 3px;
+    margin-bottom: 15px;
+}
+.js-ui-panel:first-child{
+	margin-top: 10px;
 }
 .js-ui-search-group{
 	display: inline-block;
 	margin-left: 10px;
+	margin-top: 5px;
 }
-.js-ui-search-group:first-child{
-	margin-left: 0;
+.js-ui-search-group .js-ui-search-title{
+	display: inline-block;
+    width: 90px;
+    max-width: 90px;
+    min-width: 90px;
 }
 .js-ui-search-item{
 	line-height: 32px;
@@ -86,7 +117,4 @@ body{
     border: 1px solid #dcdfe6;
     padding: 0 5px;
     margin: 0 0 0 5px;
-}
-.js-ui-table{
-	
 }
