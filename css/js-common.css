@@ -1,0 +1,92 @@
+/**
+ * 公共样式
+ */
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #E7ECEF;
+}
+.js-ui-menu{
+	position: absolute;
+    left: 0;
+    top: 0;
+	width: 138px;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.js-ui-menu-close-icon{
+	position: absolute;
+    top: 50%;
+    cursor: pointer;
+    left: 138px;
+    background-color: lightblue;
+    width: 16px;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 0 3px 3px 0;
+}
+.js-ui-logo{
+	width: 138px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+.js-ui-menu-title{
+	width: 138px;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+.js-ui-container{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: 138px;
+}
+.js-ui-header{
+	position: relative;
+    left: 0;
+    top: 0;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	padding: 0 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.js-ui-content{
+	position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 15px;
+}
+/* panel */
+.js-ui-panel{
+	margin-top: 15px;
+	background-color: #fff;
+    padding: 15px;
+	border-radius: 3px;
+}
+.js-ui-search-group{
+	display: inline-block;
+	margin-left: 10px;
+}
+.js-ui-search-group:first-child{
+	margin-left: 0;
+}
+.js-ui-search-item{
+	line-height: 32px;
+    border-radius: 3px;
+    border: 1px solid #dcdfe6;
+    padding: 0 5px;
+    margin: 0 0 0 5px;
+}
+.js-ui-table{
+	
+}
