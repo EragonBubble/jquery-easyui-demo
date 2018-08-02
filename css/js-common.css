@@ -19,7 +19,7 @@ body{
     width: 145px;
     height: auto;
     min-height: 100%;
-    background-color: #FFFFFF;
+    background-color: #dcdfe6;
     padding: 0 5px;
 }
 .js-ui-menu-close-icon{
@@ -72,6 +72,21 @@ body{
 	padding: 0 20px;
 	font-size: 20px;
 	font-weight: bold;
+}
+.js-ui-user{
+	font-size: 14px;
+	font-weight: normal;
+	float: right;
+}
+.js-ui-user-logout{
+	margin-left: 10px;
+}
+.js-ui-user-logout a{
+	text-decoration: none;
+}
+.js-ui-user-logout i{
+	margin: 0 3px;
+	color: gray;
 }
 .js-ui-nav{
 	margin-top: 10px;
