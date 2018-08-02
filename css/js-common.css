@@ -6,6 +6,12 @@ body{
 	margin: 0;
 	background-color: #E7ECEF;
 }
+.js-ui-layout{
+	position: relative;
+	width: 100%;
+    height: auto;
+    min-height: 100%;
+}
 .js-ui-menu{
 	position: absolute;
     left: 0;
@@ -17,7 +23,7 @@ body{
     padding: 0 5px;
 }
 .js-ui-menu-close-icon{
-	position: absolute;
+	position: fixed;
     top: 50%;
     cursor: pointer;
     left: 155px;

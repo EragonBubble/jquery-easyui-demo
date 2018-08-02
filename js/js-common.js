@@ -1,3 +1,8 @@
+$(function() {
+	var h=document.documentElement.clientHeight;//可见区域高度
+	$('.js-ui-menu-close-icon').css({ 'top': h/2 });
+});
+
 $('.js-ui-menu-close-icon').click(function(){
 	var menuWidth = $('.js-ui-menu').width();
 	if (menuWidth < 100) {
@@ -13,4 +18,4 @@ $('.js-ui-menu-close-icon').click(function(){
 		$('.js-ui-logo').fadeOut();
 		$('.js-ui-menu-title').fadeOut();
 	}
-})
+});
