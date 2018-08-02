@@ -118,7 +118,9 @@ body{
     min-width: 90px;
 }
 .js-ui-search-item{
+	height: 32px;
 	line-height: 32px;
+	vertical-align: middle;
     border-radius: 3px;
     border: 1px solid #dcdfe6;
     padding: 0 5px;
